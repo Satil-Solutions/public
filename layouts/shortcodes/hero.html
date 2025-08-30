@@ -1,0 +1,59 @@
+{{- $title := .Get "title" -}}
+{{- $highlight := .Get "highlight" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $ctaText := .Get "ctaText" | default "Book a Demo" -}}
+{{- $ctaLink := .Get "ctaLink" | default "#" -}}
+
+{{/* Replace the highlight word in the title with a gradient span */}}
+{{- $highlighted := $title -}}
+{{- if and $title $highlight -}}
+  {{- $highlighted = replace $title $highlight (printf "<span class=\"hero-gradient\">%s</span>" $highlight) -}}
+{{- end -}}
+
+<style>
+  .hero-text {
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+  .hero-text h1 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1.25rem 0;
+  }
+  .hero-text p {
+    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    line-height: 1.6;
+    color: #4b5563;
+    margin: 0 auto 3.5rem auto;
+    max-width: 65ch;
+  }
+  .hero-gradient {
+    background: linear-gradient(90deg, #3b82f6 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .hero-cta {
+    display: inline-block;
+    background: linear-gradient(90deg, #3b82f6 0%, #a855f7 100%);
+    color: white;
+    font-weight: 600;
+    padding: 0.9rem 1.75rem; /* Slightly bigger button */
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  .hero-cta:hover {
+    opacity: 0.9;
+  }
+</style>
+
+<section class="hero-text">
+  <h1>{{ $highlighted | safeHTML }}</h1>
+  {{- with $subtitle }}
+    <p>{{ . }}</p>
+  {{- end }}
+  <a href="{{ $ctaLink }}" class="hero-cta">{{ $ctaText }}</a>
+</section>
