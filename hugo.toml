@@ -26,7 +26,7 @@ paginatePath = "page"
 
 [params]
   description = ""
-  author = "Chaoming Li"
+  author = "Jonatan Bennerstål"
   logo = "/images/logo.svg"
   # Google Analytics ID (e.g., "G-XXXXXXXXXX")
   # googleAnalytics = "G-XXXXXXXXXX"
@@ -34,8 +34,8 @@ paginatePath = "page"
   # Global CTA Configuration
   [params.cta]
     enable = true
-    title = "Ready to Build Your SaaS Website?"
-    description = "Join companies already using our theme to create beautiful, high-performance websites."
+    title = "Simplify Production with Smarter IT"
+    description = "Empower your production teams with robust, tools built for reliability, scalability, and real-time performance on the factory floor and beyond."
     gradient_from = "#2563eb"  # Indigo-600
     gradient_to = "#7c3aed"    # Purple-600
     gradient_angle = 30
@@ -44,7 +44,7 @@ paginatePath = "page"
       url = "/products"
     [params.cta.secondary_button]
       text = "Book a demo"
-      url = "/demo"
+      url = "#"
   
   # Social Media Links
   [params.social]
@@ -58,7 +58,7 @@ paginatePath = "page"
   
   # Footer Configuration
   [params.footer]
-    column_1_title = "Features"
+    column_1_title = "PRODUCTS"
     column_2_title = "COMPANY"
     column_3_title = "LEGAL"
   
@@ -98,7 +98,7 @@ paginatePath = "page"
       # Get Started button
       [params.header.buttons.getStarted]
         text = "Get Started"
-        url = "/get-started"
+        url = "#"
 
   # Blog configuration
   [params.blog]
@@ -131,7 +131,7 @@ paginatePath = "page"
 
       # Subscribe form section
       [params.blog.sidebar.subscribe]
-        enable = true
+        enable = false
         title = "Subscribe to Newsletter"
         description = "Get the latest posts delivered right to your inbox"
         action = "https://formspree.io/f/your-form-id"
