@@ -1,0 +1,31 @@
+{{- $title := .Get "title" -}}
+{{- $highlight := .Get "highlight" -}}
+{{- $subtitle := .Get "subtitle" -}}
+
+{{- $primaryText := site.Params.cta.primary_button.text -}}
+{{- $primaryLink := site.Params.cta.primary_button.url -}}
+{{- $secondaryText := site.Params.cta.secondary_button.text -}}
+{{- $secondaryLink := site.Params.cta.secondary_button.url -}}
+
+{{ $gradient_from := .Get "gradient-from" }}
+{{ $gradient_to := .Get "gradient-to" }}
+{{ $gradient_angle := .Get "gradient-angle" | default "180" }}
+
+{{/* Replace the highlight word in the title with a gradient span */}}
+{{- $highlighted := $title -}}
+{{- if and $title $highlight -}}
+{{- $highlighted = replace $title $highlight (printf "<span style=\"background: linear-gradient(%sdeg, %s, %s); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; font-weight: 800;\">%s</span>" $gradient_angle $gradient_from $gradient_to $highlight) -}}
+{{- end -}}
+
+<section class="text-center py-24 px-4">
+  <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+    {{ $highlighted | safeHTML }}
+  </h1>
+  {{- with $subtitle }}
+  <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mt-4 mb-10">{{ . }}</p>
+  {{- end }}
+  <div class="flex justify-center gap-4">
+    <a href="{{ $primaryLink }}" class="btn-primary">{{ $primaryText }}</a>
+    <a href="{{ $secondaryLink }}" class="btn-outline">{{ $secondaryText }}</a>
+  </div>
+</section>
