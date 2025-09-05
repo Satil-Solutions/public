@@ -104,7 +104,7 @@ paginatePath = "page"
   [params.blog]
     enable = true
     title = "Latest Articles"
-    subtitle = "Learn more about web development and best practices"
+    subtitle = "Learn more about industries and production"
     
     # Blog CTA configuration
     [params.blog.cta]
@@ -176,7 +176,7 @@ paginatePath = "page"
     [menu.main.params]
       has_submenu = true
       submenu = [
-        { name = "FMEA", url = "/products/FMEA/" },
+        { name = "FMEA", url = "/products/fmea/" },
         { name = "Production Planning", url = "/products/optima/" },
       ]
   [[menu.main]]
@@ -191,7 +191,7 @@ paginatePath = "page"
   # Footer Column 1 Menu
   [[menu.footer_column_1]]
     name = "FMEA"
-    url = "/products/FMEA/"
+    url = "/products/fmea/"
     weight = 1
   [[menu.footer_column_1]]
     name = "Production Planning"

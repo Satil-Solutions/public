@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Your Product Headline' on Satil</title><link>/</link><description>Recent content in Your Product Headline' on Satil</description><generator>Hugo</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Content Management in Hugo: Best Practices</title><link>/blog/content-management-hugo/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>/blog/content-management-hugo/</guid><description>&lt;div class="bg-gray-50 p-6 rounded-lg mb-8"&gt;
- &lt;h2 class="text-xl font-semibold mb-4"&gt;Table of Contents&lt;/h2&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#content-organization"&gt;Content Organization&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#directory-structure"&gt;Directory Structure&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#front-matter-templates"&gt;Front Matter Templates&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#content-types"&gt;Content Types&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#page-bundles"&gt;Page Bundles&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#taxonomies"&gt;Taxonomies&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#content-workflow"&gt;Content Workflow&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#draft-management"&gt;Draft Management&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#content-updates"&gt;Content Updates&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#dynamic-content"&gt;Dynamic Content&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#related-content"&gt;Related Content&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#content-reuse"&gt;Content Reuse&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#seo-and-metadata"&gt;SEO and Metadata&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#content-backup"&gt;Content Backup&lt;/a&gt;
- &lt;ul&gt;
- &lt;li&gt;&lt;a href="#backup-strategies"&gt;Backup Strategies&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#conclusion"&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;/li&gt;
- &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/div&gt;
-
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Effective content management is crucial for maintaining a scalable Hugo site. This guide covers best practices for organizing and managing your content.&lt;/p&gt;
-&lt;h2 id="content-organization"&gt;Content Organization&lt;/h2&gt;
-&lt;h3 id="directory-structure"&gt;Directory Structure&lt;/h3&gt;
-&lt;p&gt;Create a logical content hierarchy:&lt;/p&gt;</description></item><item><title>FMEA</title><link>/products/fmea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/products/fmea/</guid><description/></item><item><title>Pricing</title><link>/pricing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pricing/</guid><description/></item><item><title>Production Planning</title><link>/products/optima/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/products/optima/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your Product Headline&#39; on Satil</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Your Product Headline&#39; on Satil</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5 Best FMEA Software for Risk Analysis in 2025</title>
+      <link>//localhost:1313/blog/top-fmea/</link>
+      <pubDate>Fri, 05 Sep 2025 16:50:00 +0200</pubDate>
+      <guid>//localhost:1313/blog/top-fmea/</guid>
+      <description>&lt;p&gt;🚀 &lt;strong&gt;5 Best FMEA Software for Risk Analysis in 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In 2025, risk analysis is no longer a luxury—it&amp;rsquo;s a necessity. As industries face increasing complexity, regulatory pressure, and global competition, Failure Modes and Effects Analysis (FMEA) has become a cornerstone of proactive quality assurance. Whether you&amp;rsquo;re in automotive, aerospace, electronics, or healthcare, the right FMEA software can make or break your risk management strategy.&lt;/p&gt;&#xA;&lt;p&gt;Here are the &lt;strong&gt;top 5 FMEA tools&lt;/strong&gt; leading the charge in 2025—starting with our personal favorite.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FMEA</title>
+      <link>//localhost:1313/products/fmea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/fmea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pricing</title>
+      <link>//localhost:1313/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/pricing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/privacy/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to Satil! We are committed to protecting your privacy and ensuring that your personal data is handled securely and responsibly. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SaaS application (“Service”).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-information-we-collect&#34;&gt;1. Information We Collect&lt;/h2&gt;&#xA;&lt;p&gt;We may collect the following types of information:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personal Information&lt;/strong&gt;: Name, email address, phone number, billing details, and other identifiers.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Account Information&lt;/strong&gt;: Login credentials, user preferences, and usage history.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Payment Information&lt;/strong&gt;: Credit card details or other payment data (processed securely via third-party providers).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Usage Data&lt;/strong&gt;: IP address, browser type, device information, pages visited, and actions taken within the Service.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cookies and Tracking Technologies&lt;/strong&gt;: To enhance user experience and analyze usage patterns.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-how-we-use-your-information&#34;&gt;2. How We Use Your Information&lt;/h2&gt;&#xA;&lt;p&gt;We use your data to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Production Planning</title>
+      <link>//localhost:1313/products/optima/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/products/optima/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
