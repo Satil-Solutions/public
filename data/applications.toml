@@ -1,0 +1,19 @@
+[[items]]
+tag = "FMEA"
+title = "Vertilia"
+subtitle = "FMEA: Failure mode analysis"
+catchphrase = "Prevent failures before they occur."
+url = "/products/fmea/"
+icon = "/images/app.png"
+image = "/images/software.png"
+color = "bg-blue-100"
+
+[[items]]
+tag = "Production Planning"
+title = "Optima"
+subtitle = "Production Planning"
+catchphrase = "Optimize production flow."
+url = "/products/optima/"
+icon = "/images/app.png"
+image = "/images/software.png"
+color = "bg-green-100"

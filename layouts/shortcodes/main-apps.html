@@ -1,0 +1,35 @@
+{{ $apps := site.Data.applications }}
+
+<section class="py-12">
+  <h1 class="text-center text-3xl font-bold my-8">
+    Powerful solutions to unlock loyalty, efficiency, and growth
+  </h1>
+
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {{ range $apps.items }}
+        <a href="{{ .url }}" class="block {{ .color }} rounded-xl p-8 transition text-center flex flex-col items-center space-y-6 hover:shadow-lg cursor-pointer">
+          <div class="inline-block px-3 py-1 text-sm font-medium text-primary-600 bg-white rounded-full">
+            {{ .tag }}
+          </div>
+
+          <div>
+            <h2 class="text-3xl font-medium transition-colors duration-200">
+              {{ .title }}
+            </h2>
+            <p class="text-sm py-2 text-gray-600">
+              {{ .catchphrase }}
+            </p>
+          </div>
+
+          <img src="{{ .image }}" alt="{{ .title }}" class="object-contain">
+
+          <div class="text-center font-medium">
+            Learn more
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+

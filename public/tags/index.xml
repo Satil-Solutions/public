@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Satil</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Satil</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2025 17:13:36 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025</title>
+      <link>//localhost:1313/tags/2025/</link>
+      <pubDate>Fri, 05 Sep 2025 16:50:00 +0200</pubDate>
+      <guid>//localhost:1313/tags/2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FMEA</title>
+      <link>//localhost:1313/tags/fmea/</link>
+      <pubDate>Fri, 05 Sep 2025 16:50:00 +0200</pubDate>
+      <guid>//localhost:1313/tags/fmea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality Management</title>
+      <link>//localhost:1313/tags/quality-management/</link>
+      <pubDate>Fri, 05 Sep 2025 16:50:00 +0200</pubDate>
+      <guid>//localhost:1313/tags/quality-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Risk Analysis</title>
+      <link>//localhost:1313/tags/risk-analysis/</link>
+      <pubDate>Fri, 05 Sep 2025 16:50:00 +0200</pubDate>
+      <guid>//localhost:1313/tags/risk-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>//localhost:1313/tags/software/</link>
+      <pubDate>Fri, 05 Sep 2025 16:50:00 +0200</pubDate>
+      <guid>//localhost:1313/tags/software/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

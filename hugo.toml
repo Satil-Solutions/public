@@ -45,7 +45,7 @@ paginatePath = "page"
     [params.cta.secondary_button]
       text = "Book a demo"
       url = "#"
-  
+
   # Social Media Links
   [params.social]
     #linkedin = "https://linkedin.com/in/chaomingli"
@@ -78,12 +78,12 @@ paginatePath = "page"
       # Dropdown menu configuration
       [params.header.menu.dropdown]
         width = "w-72"
-        container_padding = "py-6"
-        item_padding = "px-8 py-3"
+        container_padding = "py-3"
+        item_padding = "px-4 py-2"
         background = "bg-white"
         border = "border border-gray-100"
-        shadow = "shadow-xl"
-        radius = "rounded-lg"
+        shadow = "shadow-sm"
+        radius = "rounded-md"
         text_color = "text-gray-700"
         hover_background = "hover:bg-gray-50"
         text_size = "text-sm"
@@ -167,7 +167,7 @@ paginatePath = "page"
     endLevel = 3
     ordered = false
     startLevel = 2
-    
+
 # Navigation Menu
 [menu]
   [[menu.main]]
@@ -175,18 +175,11 @@ paginatePath = "page"
     weight = 1
     [menu.main.params]
       has_submenu = true
-      submenu = [
-        { name = "FMEA", url = "/products/fmea/" },
-        { name = "Production Planning", url = "/products/optima/" },
-      ]
-  [[menu.main]]
-    name = "Pricing"
-    url = "/pricing"
-    weight = 2
+      submenu_key = "applications"
   [[menu.main]]
     name = "Blog"
     url = "/blog"
-    weight = 3
+    weight = 2
 
   # Footer Column 1 Menu
   [[menu.footer_column_1]]

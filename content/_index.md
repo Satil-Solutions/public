@@ -8,3 +8,5 @@ description: A short, punchy subheading that explains your value.
   highlight="Simplify"
   subtitle="Empower your production teams with robust, tools built for reliability, scalability, and real-time performance on the factory floor and beyond."
   >}}
+
+{{< main-apps >}}

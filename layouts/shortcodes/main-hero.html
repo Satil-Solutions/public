@@ -2,8 +2,6 @@
 {{- $highlight := .Get "highlight" -}}
 {{- $subtitle := .Get "subtitle" -}}
 
-{{- $primaryText := site.Params.cta.primary_button.text -}}
-{{- $primaryLink := site.Params.cta.primary_button.url -}}
 {{- $secondaryText := site.Params.cta.secondary_button.text -}}
 {{- $secondaryLink := site.Params.cta.secondary_button.url -}}
 
@@ -35,7 +33,6 @@
   <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mt-4 mb-10">{{ . }}</p>
     {{- end }}
   <div class="flex justify-center gap-4">
-    <a href="{{ $primaryLink }}" class="btn-primary">{{ $primaryText }}</a>
     <a href="{{ $secondaryLink }}" class="btn-outline">{{ $secondaryText }}</a>
   </div>
 </section>
