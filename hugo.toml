@@ -2,7 +2,6 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Satil"
-theme = "hugo-saasify-theme"
 enableRobotsTXT = true
 
 # Enable syntax highlighting

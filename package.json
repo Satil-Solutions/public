@@ -1,12 +1,12 @@
 {
-  "name": "hugo-sassify-theme",
+  "name": "Satil",
   "version": "1.0.0",
-  "description": "A modern Hugo theme for SaaS websites",
-  "author": "Chaoming Li",
+  "description": "Empower your production teams with robust, tools built for reliability, scalability, and real-time performance on the factory floor and beyond",
+  "author": "Jonatan Bennerstål",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npx tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
-    "build": "tailwindcss -i themes/hugo-saasify-theme/assets/css/main.css -o static/css/style.css --minify && hugo --minify",
+    "start": "concurrently \"npx tailwindcss -i assets/css/main.css -o static/css/style.css --watch\" \"hugo server -D\"",
+    "build": "tailwindcss -i assets/css/main.css -o static/css/style.css --minify && hugo --minify",
     "deploy": "gh-pages -d public"
   },
   "devDependencies": {
