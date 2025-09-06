@@ -12,6 +12,17 @@ module.exports = {
           sans: ['Inter', 'system-ui', 'sans-serif'],
           heading: ['Plus Jakarta Sans', 'sans-serif'],
         },
+        colors: {
+          blue: {
+            100: '#E0F7FF',
+          },
+          green: {
+            100: '#EFFFE8',
+          },
+          red: {
+            100: '#ef4444',
+          },
+        },
       },
     },
     plugins: [
